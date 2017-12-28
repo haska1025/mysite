@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^upload/', views.upload),
     url(r'^redirect/', views.redirect),
     url(r'^iostat/', views.iostat),
+    url(r'^about/', views.about),
 ]
