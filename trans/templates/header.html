@@ -1,10 +1,7 @@
-<div>
-  <div> <a href= "{{ site.baseurl }}"> {{ site.title }} </a></div>
-  <div class = "nav">
+<div class="header">
     <ul>
       {% for page in site.header_pages %}
         <li> <a href = "{{ page.url }}"> {{ page.title }} </a> </li>
       {% endfor %}
     </ul>
-  </div>
 </div>
